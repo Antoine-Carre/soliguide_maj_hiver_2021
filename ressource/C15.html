@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_fa1cf1afbf5d46968f54877a955a3272 {
+                #map_8de51c020bc241899e6451c655a25f6d {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
     
                 <style>
-                    #float_image_5ba34a5d74554cc68981942371dd6d46 {
+                    #float_image_4b3e1ed568a64cafbd6c0a4de85c9188 {
                         position:absolute;
                         bottom:20%;
                         left:5%;
@@ -47,10 +47,10 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_fa1cf1afbf5d46968f54877a955a3272" ></div>
+            <div class="folium-map" id="map_8de51c020bc241899e6451c655a25f6d" ></div>
         
     
-            <img id="float_image_5ba34a5d74554cc68981942371dd6d46" alt="float_image"
+            <img id="float_image_4b3e1ed568a64cafbd6c0a4de85c9188" alt="float_image"
                  src="https://raw.githubusercontent.com/Antoine-Carre/Soliguide_majete2021/main/ressources/legend_map_hiver.png"
                  style="z-index: 999999">
             </img>
@@ -58,12 +58,12 @@
 </body>
 <script>    
     
-            var map_fa1cf1afbf5d46968f54877a955a3272 = L.map(
-                "map_fa1cf1afbf5d46968f54877a955a3272",
+            var map_8de51c020bc241899e6451c655a25f6d = L.map(
+                "map_8de51c020bc241899e6451c655a25f6d",
                 {
-                    center: [44.9170761, 2.4395568],
+                    center: [44.9212829, 2.4428641],
                     crs: L.CRS.EPSG3857,
-                    zoom: 9,
+                    zoom: 10,
                     zoomControl: true,
                     preferCanvas: false,
                 }
@@ -73,92 +73,38 @@
 
         
     
-            var tile_layer_8a27bc2c6af0491a815b607c7f4159b2 = L.tileLayer(
+            var tile_layer_3dc73238a54d4ed3809a3f430b53719d = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
+            ).addTo(map_8de51c020bc241899e6451c655a25f6d);
         
     
-            var marker_cluster_1e37ab831c774c4ba55e349c2dc0dbab = L.markerClusterGroup(
+            var marker_cluster_11cb2a88cf054a9680819f1abf7736e6 = L.markerClusterGroup(
                 {}
             );
-            map_fa1cf1afbf5d46968f54877a955a3272.addLayer(marker_cluster_1e37ab831c774c4ba55e349c2dc0dbab);
+            map_8de51c020bc241899e6451c655a25f6d.addLayer(marker_cluster_11cb2a88cf054a9680819f1abf7736e6);
         
     
-            var circle_marker_0f704b46dec04cd9b048e1c8ac6c7982 = L.circleMarker(
-                [44.9170761, 2.4395568],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_80b5f9e3d3dc41a69698c8d84be9c041 = L.popup({"maxWidth": "100%"});
-
-        
-            var html_49e78b5184c64db3a5faea421fa9c269 = $(`<div id="html_49e78b5184c64db3a5faea421fa9c269" style="width: 100.0%; height: 100.0%;">France Terre d'Asile Aurillac</div>`)[0];
-            popup_80b5f9e3d3dc41a69698c8d84be9c041.setContent(html_49e78b5184c64db3a5faea421fa9c269);
-        
-
-        circle_marker_0f704b46dec04cd9b048e1c8ac6c7982.bindPopup(popup_80b5f9e3d3dc41a69698c8d84be9c041)
-        ;
-
-        
-    
-    
-            circle_marker_0f704b46dec04cd9b048e1c8ac6c7982.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_46d80e584b3547b6a50e7aef5d62f8f2 = L.circleMarker(
-                [45.220539, 2.3304688],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_16ddd44b1d374bd29f53064fd82701ad = L.popup({"maxWidth": "100%"});
-
-        
-            var html_deb1302ae681422382dd7c2025e5d60b = $(`<div id="html_deb1302ae681422382dd7c2025e5d60b" style="width: 100.0%; height: 100.0%;">Centre de distribution MAURIAC</div>`)[0];
-            popup_16ddd44b1d374bd29f53064fd82701ad.setContent(html_deb1302ae681422382dd7c2025e5d60b);
-        
-
-        circle_marker_46d80e584b3547b6a50e7aef5d62f8f2.bindPopup(popup_16ddd44b1d374bd29f53064fd82701ad)
-        ;
-
-        
-    
-    
-            circle_marker_46d80e584b3547b6a50e7aef5d62f8f2.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_ba4666dca1234c3fa0a81125d99225f7 = L.circleMarker(
+            var circle_marker_4064bbf355cf4c91be998fc6196a4992 = L.circleMarker(
                 [44.9212829, 2.4428641],
                 {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
+            ).addTo(map_8de51c020bc241899e6451c655a25f6d);
         
     
-        var popup_d9c54092727e49acb8d57a0c92663f31 = L.popup({"maxWidth": "100%"});
+        var popup_243b26d9844e40ddab29daecbf6cffb3 = L.popup({"maxWidth": "100%"});
 
         
-            var html_f80a406f7b384d83ad2af3aa4f35d6fc = $(`<div id="html_f80a406f7b384d83ad2af3aa4f35d6fc" style="width: 100.0%; height: 100.0%;">Accueil de jour Anef Cantal</div>`)[0];
-            popup_d9c54092727e49acb8d57a0c92663f31.setContent(html_f80a406f7b384d83ad2af3aa4f35d6fc);
+            var html_2d30bb8bcfa04cacbea68a086bf7b0e6 = $(`<div id="html_2d30bb8bcfa04cacbea68a086bf7b0e6" style="width: 100.0%; height: 100.0%;">Accueil de jour Anef Cantal</div>`)[0];
+            popup_243b26d9844e40ddab29daecbf6cffb3.setContent(html_2d30bb8bcfa04cacbea68a086bf7b0e6);
         
 
-        circle_marker_ba4666dca1234c3fa0a81125d99225f7.bindPopup(popup_d9c54092727e49acb8d57a0c92663f31)
+        circle_marker_4064bbf355cf4c91be998fc6196a4992.bindPopup(popup_243b26d9844e40ddab29daecbf6cffb3)
         ;
 
         
     
     
-            circle_marker_ba4666dca1234c3fa0a81125d99225f7.bindTooltip(
+            circle_marker_4064bbf355cf4c91be998fc6196a4992.bindTooltip(
                 `<div>
                      Modification
                  </div>`,
@@ -166,53 +112,26 @@
             );
         
     
-            var circle_marker_c2b2f82f1b03417fa6ceb66542e5fbc5 = L.circleMarker(
-                [45.036506, 3.081809],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_3b6658d4130f4a12a4c41f995add6449 = L.popup({"maxWidth": "100%"});
-
-        
-            var html_83e6d7ee772b481094385d921359651b = $(`<div id="html_83e6d7ee772b481094385d921359651b" style="width: 100.0%; height: 100.0%;">Epicerie Sociale et Solidaire - Les quatre vents</div>`)[0];
-            popup_3b6658d4130f4a12a4c41f995add6449.setContent(html_83e6d7ee772b481094385d921359651b);
-        
-
-        circle_marker_c2b2f82f1b03417fa6ceb66542e5fbc5.bindPopup(popup_3b6658d4130f4a12a4c41f995add6449)
-        ;
-
-        
-    
-    
-            circle_marker_c2b2f82f1b03417fa6ceb66542e5fbc5.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_b775ca15a925484880fcf91c8f736bfa = L.circleMarker(
+            var circle_marker_5d6b478bdb0f4cf0b9598a4520120f18 = L.circleMarker(
                 [44.9309601, 2.4466053],
                 {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
+            ).addTo(map_8de51c020bc241899e6451c655a25f6d);
         
     
-        var popup_ea5b0d447d7b40c6bad6e5af6cb728b3 = L.popup({"maxWidth": "100%"});
+        var popup_37930464da27455d957bbb483e2c35da = L.popup({"maxWidth": "100%"});
 
         
-            var html_161c5bed67f941b992ac35df34bc011f = $(`<div id="html_161c5bed67f941b992ac35df34bc011f" style="width: 100.0%; height: 100.0%;">Fring'Aide</div>`)[0];
-            popup_ea5b0d447d7b40c6bad6e5af6cb728b3.setContent(html_161c5bed67f941b992ac35df34bc011f);
+            var html_be141c1d4e8f42f9a2baec514cbb5d5d = $(`<div id="html_be141c1d4e8f42f9a2baec514cbb5d5d" style="width: 100.0%; height: 100.0%;">Fring'Aide</div>`)[0];
+            popup_37930464da27455d957bbb483e2c35da.setContent(html_be141c1d4e8f42f9a2baec514cbb5d5d);
         
 
-        circle_marker_b775ca15a925484880fcf91c8f736bfa.bindPopup(popup_ea5b0d447d7b40c6bad6e5af6cb728b3)
+        circle_marker_5d6b478bdb0f4cf0b9598a4520120f18.bindPopup(popup_37930464da27455d957bbb483e2c35da)
         ;
 
         
     
     
-            circle_marker_b775ca15a925484880fcf91c8f736bfa.bindTooltip(
+            circle_marker_5d6b478bdb0f4cf0b9598a4520120f18.bindTooltip(
                 `<div>
                      Ouvert
                  </div>`,
@@ -220,26 +139,26 @@
             );
         
     
-            var circle_marker_ea189632b3a140218c89213c1fe28b78 = L.circleMarker(
+            var circle_marker_0e3453ff55f147c6b9382921f49b38fe = L.circleMarker(
                 [44.9183367, 2.4349045],
                 {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
+            ).addTo(map_8de51c020bc241899e6451c655a25f6d);
         
     
-        var popup_9fa8f284145f490cae4e4d49ec311de2 = L.popup({"maxWidth": "100%"});
+        var popup_22ec53df99e244f0bc41f1bee4ce0047 = L.popup({"maxWidth": "100%"});
 
         
-            var html_45e42143d5f148d192ac7549d6b5bd92 = $(`<div id="html_45e42143d5f148d192ac7549d6b5bd92" style="width: 100.0%; height: 100.0%;">Fring'Aide</div>`)[0];
-            popup_9fa8f284145f490cae4e4d49ec311de2.setContent(html_45e42143d5f148d192ac7549d6b5bd92);
+            var html_8aa2976936f7443cb8c783221a66c115 = $(`<div id="html_8aa2976936f7443cb8c783221a66c115" style="width: 100.0%; height: 100.0%;">Fring'Aide</div>`)[0];
+            popup_22ec53df99e244f0bc41f1bee4ce0047.setContent(html_8aa2976936f7443cb8c783221a66c115);
         
 
-        circle_marker_ea189632b3a140218c89213c1fe28b78.bindPopup(popup_9fa8f284145f490cae4e4d49ec311de2)
+        circle_marker_0e3453ff55f147c6b9382921f49b38fe.bindPopup(popup_22ec53df99e244f0bc41f1bee4ce0047)
         ;
 
         
     
     
-            circle_marker_ea189632b3a140218c89213c1fe28b78.bindTooltip(
+            circle_marker_0e3453ff55f147c6b9382921f49b38fe.bindTooltip(
                 `<div>
                      Ouvert
                  </div>`,
@@ -247,26 +166,26 @@
             );
         
     
-            var circle_marker_3513738f6bf54aa0b4662811194b633b = L.circleMarker(
+            var circle_marker_c99ad8d5ee83486eb7167058cf853def = L.circleMarker(
                 [44.93153969999999, 2.4480633],
                 {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
+            ).addTo(map_8de51c020bc241899e6451c655a25f6d);
         
     
-        var popup_bab84a8d7f3640fab9e2f351f45f4908 = L.popup({"maxWidth": "100%"});
+        var popup_1dd8dcb187f34e9392b9e504da2d34b4 = L.popup({"maxWidth": "100%"});
 
         
-            var html_d345371509464712b292da80df85e881 = $(`<div id="html_d345371509464712b292da80df85e881" style="width: 100.0%; height: 100.0%;">Restaurant de la Solidarité</div>`)[0];
-            popup_bab84a8d7f3640fab9e2f351f45f4908.setContent(html_d345371509464712b292da80df85e881);
+            var html_4d76b55f2c6f4632be79f85c17c559c9 = $(`<div id="html_4d76b55f2c6f4632be79f85c17c559c9" style="width: 100.0%; height: 100.0%;">Restaurant de la Solidarité</div>`)[0];
+            popup_1dd8dcb187f34e9392b9e504da2d34b4.setContent(html_4d76b55f2c6f4632be79f85c17c559c9);
         
 
-        circle_marker_3513738f6bf54aa0b4662811194b633b.bindPopup(popup_bab84a8d7f3640fab9e2f351f45f4908)
+        circle_marker_c99ad8d5ee83486eb7167058cf853def.bindPopup(popup_1dd8dcb187f34e9392b9e504da2d34b4)
         ;
 
         
     
     
-            circle_marker_3513738f6bf54aa0b4662811194b633b.bindTooltip(
+            circle_marker_c99ad8d5ee83486eb7167058cf853def.bindTooltip(
                 `<div>
                      Ouvert
                  </div>`,
@@ -274,107 +193,26 @@
             );
         
     
-            var circle_marker_a8ec3a2db7084589a314c392f7b8d76f = L.circleMarker(
-                [44.9093092, 2.4414657],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_b155c6e082ba467a98eedf51af414347 = L.popup({"maxWidth": "100%"});
-
-        
-            var html_33d2345b432a4a938c2ce86ee3e54af4 = $(`<div id="html_33d2345b432a4a938c2ce86ee3e54af4" style="width: 100.0%; height: 100.0%;">Emmaüs Aurillac </div>`)[0];
-            popup_b155c6e082ba467a98eedf51af414347.setContent(html_33d2345b432a4a938c2ce86ee3e54af4);
-        
-
-        circle_marker_a8ec3a2db7084589a314c392f7b8d76f.bindPopup(popup_b155c6e082ba467a98eedf51af414347)
-        ;
-
-        
-    
-    
-            circle_marker_a8ec3a2db7084589a314c392f7b8d76f.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_a14d0c686fa6464ebb3b6a0250836039 = L.circleMarker(
-                [45.038199, 3.101176],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_e18525b6422d4472b96e091815e06155 = L.popup({"maxWidth": "100%"});
-
-        
-            var html_91406c6afc61408fbb79ddd70190a38d = $(`<div id="html_91406c6afc61408fbb79ddd70190a38d" style="width: 100.0%; height: 100.0%;">Emmaüs Saint-Flour </div>`)[0];
-            popup_e18525b6422d4472b96e091815e06155.setContent(html_91406c6afc61408fbb79ddd70190a38d);
-        
-
-        circle_marker_a14d0c686fa6464ebb3b6a0250836039.bindPopup(popup_e18525b6422d4472b96e091815e06155)
-        ;
-
-        
-    
-    
-            circle_marker_a14d0c686fa6464ebb3b6a0250836039.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_2e0a2b4b5cb94df98dc34ded4579c0b2 = L.circleMarker(
-                [44.9252073, 2.4308221],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_6ec4ccb34a884cda9654e52d43744c9b = L.popup({"maxWidth": "100%"});
-
-        
-            var html_e6adfb8675084d44a784f06a040ce543 = $(`<div id="html_e6adfb8675084d44a784f06a040ce543" style="width: 100.0%; height: 100.0%;">Centre Social Helitas </div>`)[0];
-            popup_6ec4ccb34a884cda9654e52d43744c9b.setContent(html_e6adfb8675084d44a784f06a040ce543);
-        
-
-        circle_marker_2e0a2b4b5cb94df98dc34ded4579c0b2.bindPopup(popup_6ec4ccb34a884cda9654e52d43744c9b)
-        ;
-
-        
-    
-    
-            circle_marker_2e0a2b4b5cb94df98dc34ded4579c0b2.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_58f6c9bb9e3e4e1eb83b96ceee8cb6d0 = L.circleMarker(
+            var circle_marker_99b3a55efa334148a42b3b100f4a6e8d = L.circleMarker(
                 [45.0619391, 2.416830099999999],
                 {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
+            ).addTo(map_8de51c020bc241899e6451c655a25f6d);
         
     
-        var popup_1d0abecdbad84cf987e3ec97972775e1 = L.popup({"maxWidth": "100%"});
+        var popup_8127565b035d4cd5a72b5deca338edf7 = L.popup({"maxWidth": "100%"});
 
         
-            var html_9b24631cfe0740a485459f7e29ca80bd = $(`<div id="html_9b24631cfe0740a485459f7e29ca80bd" style="width: 100.0%; height: 100.0%;">Secours Catholique -Entre Doire et Authre</div>`)[0];
-            popup_1d0abecdbad84cf987e3ec97972775e1.setContent(html_9b24631cfe0740a485459f7e29ca80bd);
+            var html_ce0dd2fa08c74aa5bcfe858b33a58fba = $(`<div id="html_ce0dd2fa08c74aa5bcfe858b33a58fba" style="width: 100.0%; height: 100.0%;">Secours Catholique -Entre Doire et Authre</div>`)[0];
+            popup_8127565b035d4cd5a72b5deca338edf7.setContent(html_ce0dd2fa08c74aa5bcfe858b33a58fba);
         
 
-        circle_marker_58f6c9bb9e3e4e1eb83b96ceee8cb6d0.bindPopup(popup_1d0abecdbad84cf987e3ec97972775e1)
+        circle_marker_99b3a55efa334148a42b3b100f4a6e8d.bindPopup(popup_8127565b035d4cd5a72b5deca338edf7)
         ;
 
         
     
     
-            circle_marker_58f6c9bb9e3e4e1eb83b96ceee8cb6d0.bindTooltip(
+            circle_marker_99b3a55efa334148a42b3b100f4a6e8d.bindTooltip(
                 `<div>
                      Ouvert
                  </div>`,
@@ -382,26 +220,26 @@
             );
         
     
-            var circle_marker_fd5bc1f518aa46aa966b83aeefba2050 = L.circleMarker(
+            var circle_marker_6914521ac31541e08f790b251f5ac1ed = L.circleMarker(
                 [44.930884, 2.4441574],
                 {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
+            ).addTo(map_8de51c020bc241899e6451c655a25f6d);
         
     
-        var popup_c94e9656f10d4fc793e87a902d82a9ce = L.popup({"maxWidth": "100%"});
+        var popup_9f239653a24a4c8d9760a929da4e59f5 = L.popup({"maxWidth": "100%"});
 
         
-            var html_1a3bed29b62a4247bc11b170bbd16db0 = $(`<div id="html_1a3bed29b62a4247bc11b170bbd16db0" style="width: 100.0%; height: 100.0%;">Paniers Solidaires -Secours Catholique</div>`)[0];
-            popup_c94e9656f10d4fc793e87a902d82a9ce.setContent(html_1a3bed29b62a4247bc11b170bbd16db0);
+            var html_b99394f1a51544c7a3ff07e3e908b131 = $(`<div id="html_b99394f1a51544c7a3ff07e3e908b131" style="width: 100.0%; height: 100.0%;">Paniers Solidaires -Secours Catholique</div>`)[0];
+            popup_9f239653a24a4c8d9760a929da4e59f5.setContent(html_b99394f1a51544c7a3ff07e3e908b131);
         
 
-        circle_marker_fd5bc1f518aa46aa966b83aeefba2050.bindPopup(popup_c94e9656f10d4fc793e87a902d82a9ce)
+        circle_marker_6914521ac31541e08f790b251f5ac1ed.bindPopup(popup_9f239653a24a4c8d9760a929da4e59f5)
         ;
 
         
     
     
-            circle_marker_fd5bc1f518aa46aa966b83aeefba2050.bindTooltip(
+            circle_marker_6914521ac31541e08f790b251f5ac1ed.bindTooltip(
                 `<div>
                      Ouvert
                  </div>`,
@@ -409,26 +247,26 @@
             );
         
     
-            var circle_marker_79afa93c0d41432393c0fa3e158c9f98 = L.circleMarker(
+            var circle_marker_cf86a815aeef4824b89f2513794c9198 = L.circleMarker(
                 [45.05896449999999, 2.4210987],
                 {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
+            ).addTo(map_8de51c020bc241899e6451c655a25f6d);
         
     
-        var popup_3d398c62d92940a48eec4c134e17742f = L.popup({"maxWidth": "100%"});
+        var popup_82b760f704194a93a554ccb407dcb4a0 = L.popup({"maxWidth": "100%"});
 
         
-            var html_81a6b260ab294b3f9980ad901a3655f8 = $(`<div id="html_81a6b260ab294b3f9980ad901a3655f8" style="width: 100.0%; height: 100.0%;">Boite à livre - Secours Catholique </div>`)[0];
-            popup_3d398c62d92940a48eec4c134e17742f.setContent(html_81a6b260ab294b3f9980ad901a3655f8);
+            var html_b8431ef7c4de4ee9bcab2493bb07239b = $(`<div id="html_b8431ef7c4de4ee9bcab2493bb07239b" style="width: 100.0%; height: 100.0%;">Boite à livre - Secours Catholique </div>`)[0];
+            popup_82b760f704194a93a554ccb407dcb4a0.setContent(html_b8431ef7c4de4ee9bcab2493bb07239b);
         
 
-        circle_marker_79afa93c0d41432393c0fa3e158c9f98.bindPopup(popup_3d398c62d92940a48eec4c134e17742f)
+        circle_marker_cf86a815aeef4824b89f2513794c9198.bindPopup(popup_82b760f704194a93a554ccb407dcb4a0)
         ;
 
         
     
     
-            circle_marker_79afa93c0d41432393c0fa3e158c9f98.bindTooltip(
+            circle_marker_cf86a815aeef4824b89f2513794c9198.bindTooltip(
                 `<div>
                      Ouvert
                  </div>`,
@@ -436,26 +274,26 @@
             );
         
     
-            var circle_marker_4b6f1e6c4a154d4fa676121f6e82cc30 = L.circleMarker(
+            var circle_marker_baa19e88a70b41728fd26d826c5f793b = L.circleMarker(
                 [45.03880849999999, 2.480440900000001],
                 {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
+            ).addTo(map_8de51c020bc241899e6451c655a25f6d);
         
     
-        var popup_364a0c8f903b4505b0937cccf61c2bf9 = L.popup({"maxWidth": "100%"});
+        var popup_2c305bb066c64989bc3b368dbf0189fa = L.popup({"maxWidth": "100%"});
 
         
-            var html_ae702c82c2fb48e4bbb468771a3d7d75 = $(`<div id="html_ae702c82c2fb48e4bbb468771a3d7d75" style="width: 100.0%; height: 100.0%;">Boite à livre - Secours Catholique</div>`)[0];
-            popup_364a0c8f903b4505b0937cccf61c2bf9.setContent(html_ae702c82c2fb48e4bbb468771a3d7d75);
+            var html_f28074df10a045f8af1123f5582d1aba = $(`<div id="html_f28074df10a045f8af1123f5582d1aba" style="width: 100.0%; height: 100.0%;">Boite à livre - Secours Catholique</div>`)[0];
+            popup_2c305bb066c64989bc3b368dbf0189fa.setContent(html_f28074df10a045f8af1123f5582d1aba);
         
 
-        circle_marker_4b6f1e6c4a154d4fa676121f6e82cc30.bindPopup(popup_364a0c8f903b4505b0937cccf61c2bf9)
+        circle_marker_baa19e88a70b41728fd26d826c5f793b.bindPopup(popup_2c305bb066c64989bc3b368dbf0189fa)
         ;
 
         
     
     
-            circle_marker_4b6f1e6c4a154d4fa676121f6e82cc30.bindTooltip(
+            circle_marker_baa19e88a70b41728fd26d826c5f793b.bindTooltip(
                 `<div>
                      Ouvert
                  </div>`,
@@ -463,26 +301,26 @@
             );
         
     
-            var circle_marker_459aa1224e5f428b89e8610244c1bd12 = L.circleMarker(
+            var circle_marker_464060439cf24239afebe96939507fb6 = L.circleMarker(
                 [44.97343799999999, 2.421194],
                 {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
+            ).addTo(map_8de51c020bc241899e6451c655a25f6d);
         
     
-        var popup_7645a3484ac248bdb1dd9bf8216e2a18 = L.popup({"maxWidth": "100%"});
+        var popup_c250bbef32e64d25b885e6cf83771d94 = L.popup({"maxWidth": "100%"});
 
         
-            var html_2c810533760948b19a909e21b919828c = $(`<div id="html_2c810533760948b19a909e21b919828c" style="width: 100.0%; height: 100.0%;">Boite à livre - Secours Catholique</div>`)[0];
-            popup_7645a3484ac248bdb1dd9bf8216e2a18.setContent(html_2c810533760948b19a909e21b919828c);
+            var html_23fbbf8ad80148ecbbdb5f66076e8b06 = $(`<div id="html_23fbbf8ad80148ecbbdb5f66076e8b06" style="width: 100.0%; height: 100.0%;">Boite à livre - Secours Catholique</div>`)[0];
+            popup_c250bbef32e64d25b885e6cf83771d94.setContent(html_23fbbf8ad80148ecbbdb5f66076e8b06);
         
 
-        circle_marker_459aa1224e5f428b89e8610244c1bd12.bindPopup(popup_7645a3484ac248bdb1dd9bf8216e2a18)
+        circle_marker_464060439cf24239afebe96939507fb6.bindPopup(popup_c250bbef32e64d25b885e6cf83771d94)
         ;
 
         
     
     
-            circle_marker_459aa1224e5f428b89e8610244c1bd12.bindTooltip(
+            circle_marker_464060439cf24239afebe96939507fb6.bindTooltip(
                 `<div>
                      Ouvert
                  </div>`,
@@ -490,26 +328,26 @@
             );
         
     
-            var circle_marker_e7f9f9ea48a645878ba3e1652975546c = L.circleMarker(
+            var circle_marker_d6d632a6b4034a1196b352a654d09001 = L.circleMarker(
                 [45.221412, 2.337814],
                 {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
+            ).addTo(map_8de51c020bc241899e6451c655a25f6d);
         
     
-        var popup_016a055d80b842a98e68acbd881a49d5 = L.popup({"maxWidth": "100%"});
+        var popup_d674bf5698b84603a9d99ebba7aaa3fc = L.popup({"maxWidth": "100%"});
 
         
-            var html_47940711cec14015a6bc3a436399b783 = $(`<div id="html_47940711cec14015a6bc3a436399b783" style="width: 100.0%; height: 100.0%;">Secours Catholique de Mauriac </div>`)[0];
-            popup_016a055d80b842a98e68acbd881a49d5.setContent(html_47940711cec14015a6bc3a436399b783);
+            var html_c0f1f823e5f14ca79321f600af586886 = $(`<div id="html_c0f1f823e5f14ca79321f600af586886" style="width: 100.0%; height: 100.0%;">Secours Catholique de Mauriac </div>`)[0];
+            popup_d674bf5698b84603a9d99ebba7aaa3fc.setContent(html_c0f1f823e5f14ca79321f600af586886);
         
 
-        circle_marker_e7f9f9ea48a645878ba3e1652975546c.bindPopup(popup_016a055d80b842a98e68acbd881a49d5)
+        circle_marker_d6d632a6b4034a1196b352a654d09001.bindPopup(popup_d674bf5698b84603a9d99ebba7aaa3fc)
         ;
 
         
     
     
-            circle_marker_e7f9f9ea48a645878ba3e1652975546c.bindTooltip(
+            circle_marker_d6d632a6b4034a1196b352a654d09001.bindTooltip(
                 `<div>
                      Ouvert
                  </div>`,
@@ -517,26 +355,26 @@
             );
         
     
-            var circle_marker_8be7bbc4b0dc4f64a98b1cc5e50b2046 = L.circleMarker(
+            var circle_marker_ac2c272c3d7f48b0a6a20457093f6c71 = L.circleMarker(
                 [44.7097458, 2.1975239],
                 {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
+            ).addTo(map_8de51c020bc241899e6451c655a25f6d);
         
     
-        var popup_0408c80de8d5454f844e90719ed0f8e5 = L.popup({"maxWidth": "100%"});
+        var popup_86b704bd748b4ab1b1ae221268b3b1e4 = L.popup({"maxWidth": "100%"});
 
         
-            var html_18010d8635094abe8da6932451f25ced = $(`<div id="html_18010d8635094abe8da6932451f25ced" style="width: 100.0%; height: 100.0%;">Secours Catholique de Maurs </div>`)[0];
-            popup_0408c80de8d5454f844e90719ed0f8e5.setContent(html_18010d8635094abe8da6932451f25ced);
+            var html_b2c6a84c03ed405aac996bbad97d50e2 = $(`<div id="html_b2c6a84c03ed405aac996bbad97d50e2" style="width: 100.0%; height: 100.0%;">Secours Catholique de Maurs </div>`)[0];
+            popup_86b704bd748b4ab1b1ae221268b3b1e4.setContent(html_b2c6a84c03ed405aac996bbad97d50e2);
         
 
-        circle_marker_8be7bbc4b0dc4f64a98b1cc5e50b2046.bindPopup(popup_0408c80de8d5454f844e90719ed0f8e5)
+        circle_marker_ac2c272c3d7f48b0a6a20457093f6c71.bindPopup(popup_86b704bd748b4ab1b1ae221268b3b1e4)
         ;
 
         
     
     
-            circle_marker_8be7bbc4b0dc4f64a98b1cc5e50b2046.bindTooltip(
+            circle_marker_ac2c272c3d7f48b0a6a20457093f6c71.bindTooltip(
                 `<div>
                      Ouvert
                  </div>`,
@@ -544,26 +382,26 @@
             );
         
     
-            var circle_marker_4ddce05d53464195aa2cecb9db40f71d = L.circleMarker(
+            var circle_marker_9a3d139cf89d4d6eb2bcc218bcb6a15e = L.circleMarker(
                 [45.3473353, 2.437667],
                 {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
+            ).addTo(map_8de51c020bc241899e6451c655a25f6d);
         
     
-        var popup_a7481adb06614ffab888de6c70bf5564 = L.popup({"maxWidth": "100%"});
+        var popup_b6d6c75706bc4d5a8b28eba627ba895c = L.popup({"maxWidth": "100%"});
 
         
-            var html_4af27398f69144f4a9fe0d8f820293da = $(`<div id="html_4af27398f69144f4a9fe0d8f820293da" style="width: 100.0%; height: 100.0%;">Secours Catholique de Ydes</div>`)[0];
-            popup_a7481adb06614ffab888de6c70bf5564.setContent(html_4af27398f69144f4a9fe0d8f820293da);
+            var html_16b85a9eb84940e0894b2317fcc5801c = $(`<div id="html_16b85a9eb84940e0894b2317fcc5801c" style="width: 100.0%; height: 100.0%;">Secours Catholique de Ydes</div>`)[0];
+            popup_b6d6c75706bc4d5a8b28eba627ba895c.setContent(html_16b85a9eb84940e0894b2317fcc5801c);
         
 
-        circle_marker_4ddce05d53464195aa2cecb9db40f71d.bindPopup(popup_a7481adb06614ffab888de6c70bf5564)
+        circle_marker_9a3d139cf89d4d6eb2bcc218bcb6a15e.bindPopup(popup_b6d6c75706bc4d5a8b28eba627ba895c)
         ;
 
         
     
     
-            circle_marker_4ddce05d53464195aa2cecb9db40f71d.bindTooltip(
+            circle_marker_9a3d139cf89d4d6eb2bcc218bcb6a15e.bindTooltip(
                 `<div>
                      Ouvert
                  </div>`,
@@ -571,26 +409,26 @@
             );
         
     
-            var circle_marker_efd32815e507444bba449aee9bd213f4 = L.circleMarker(
+            var circle_marker_432338622104439f85d41610ac572d30 = L.circleMarker(
                 [44.707294, 2.500047],
                 {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
+            ).addTo(map_8de51c020bc241899e6451c655a25f6d);
         
     
-        var popup_febd929ba430478fae7cced75671faee = L.popup({"maxWidth": "100%"});
+        var popup_be7cefec10ae402088f76f50d458a6f9 = L.popup({"maxWidth": "100%"});
 
         
-            var html_b36464eba31e4efcaf69266085f40720 = $(`<div id="html_b36464eba31e4efcaf69266085f40720" style="width: 100.0%; height: 100.0%;">Secours Catholique de Montsalvy</div>`)[0];
-            popup_febd929ba430478fae7cced75671faee.setContent(html_b36464eba31e4efcaf69266085f40720);
+            var html_e5635d275ea245ba84292daf22fac1e7 = $(`<div id="html_e5635d275ea245ba84292daf22fac1e7" style="width: 100.0%; height: 100.0%;">Secours Catholique de Montsalvy</div>`)[0];
+            popup_be7cefec10ae402088f76f50d458a6f9.setContent(html_e5635d275ea245ba84292daf22fac1e7);
         
 
-        circle_marker_efd32815e507444bba449aee9bd213f4.bindPopup(popup_febd929ba430478fae7cced75671faee)
+        circle_marker_432338622104439f85d41610ac572d30.bindPopup(popup_be7cefec10ae402088f76f50d458a6f9)
         ;
 
         
     
     
-            circle_marker_efd32815e507444bba449aee9bd213f4.bindTooltip(
+            circle_marker_432338622104439f85d41610ac572d30.bindTooltip(
                 `<div>
                      Ouvert
                  </div>`,
@@ -598,26 +436,26 @@
             );
         
     
-            var circle_marker_1a4517e87524404b80dac814ca2ce994 = L.circleMarker(
+            var circle_marker_4ff18315658744eeba59bcb3e6e5dcd8 = L.circleMarker(
                 [44.968108, 2.188877],
                 {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
+            ).addTo(map_8de51c020bc241899e6451c655a25f6d);
         
     
-        var popup_c58b6b7ccddb49ab9ed341c9de2e44c7 = L.popup({"maxWidth": "100%"});
+        var popup_8cf27e1414df4af4a85b73d13a07fe46 = L.popup({"maxWidth": "100%"});
 
         
-            var html_fe0164ca04ff410c963b52b419820c16 = $(`<div id="html_fe0164ca04ff410c963b52b419820c16" style="width: 100.0%; height: 100.0%;">Secours Catholique de Laroquebrou </div>`)[0];
-            popup_c58b6b7ccddb49ab9ed341c9de2e44c7.setContent(html_fe0164ca04ff410c963b52b419820c16);
+            var html_a3cc8d3407514fb5923d8713275886d9 = $(`<div id="html_a3cc8d3407514fb5923d8713275886d9" style="width: 100.0%; height: 100.0%;">Secours Catholique de Laroquebrou </div>`)[0];
+            popup_8cf27e1414df4af4a85b73d13a07fe46.setContent(html_a3cc8d3407514fb5923d8713275886d9);
         
 
-        circle_marker_1a4517e87524404b80dac814ca2ce994.bindPopup(popup_c58b6b7ccddb49ab9ed341c9de2e44c7)
+        circle_marker_4ff18315658744eeba59bcb3e6e5dcd8.bindPopup(popup_8cf27e1414df4af4a85b73d13a07fe46)
         ;
 
         
     
     
-            circle_marker_1a4517e87524404b80dac814ca2ce994.bindTooltip(
+            circle_marker_4ff18315658744eeba59bcb3e6e5dcd8.bindTooltip(
                 `<div>
                      Ouvert
                  </div>`,
@@ -625,107 +463,26 @@
             );
         
     
-            var circle_marker_a8ea9ab64a3d436bb385c35d1e58c963 = L.circleMarker(
-                [44.9088267, 2.4220402],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_773ee2cd266f4010bf750f8ea81649fe = L.popup({"maxWidth": "100%"});
-
-        
-            var html_1ff3c4d5de2a4d19a8f2e7c086ad9e8d = $(`<div id="html_1ff3c4d5de2a4d19a8f2e7c086ad9e8d" style="width: 100.0%; height: 100.0%;">Appartements de coordination thérapeutiques- ANEF Cantal</div>`)[0];
-            popup_773ee2cd266f4010bf750f8ea81649fe.setContent(html_1ff3c4d5de2a4d19a8f2e7c086ad9e8d);
-        
-
-        circle_marker_a8ea9ab64a3d436bb385c35d1e58c963.bindPopup(popup_773ee2cd266f4010bf750f8ea81649fe)
-        ;
-
-        
-    
-    
-            circle_marker_a8ea9ab64a3d436bb385c35d1e58c963.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_06dcebd401c242f0bd2ae0de440942b7 = L.circleMarker(
-                [44.9350786, 2.4399234],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_35b953e3487c442687d5faef18411876 = L.popup({"maxWidth": "100%"});
-
-        
-            var html_24568b01fab34ef4bd245d5670877237 = $(`<div id="html_24568b01fab34ef4bd245d5670877237" style="width: 100.0%; height: 100.0%;">L'entre d'eux - ANEF Cantal</div>`)[0];
-            popup_35b953e3487c442687d5faef18411876.setContent(html_24568b01fab34ef4bd245d5670877237);
-        
-
-        circle_marker_06dcebd401c242f0bd2ae0de440942b7.bindPopup(popup_35b953e3487c442687d5faef18411876)
-        ;
-
-        
-    
-    
-            circle_marker_06dcebd401c242f0bd2ae0de440942b7.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_935c43fe13b84466b3a4bfcb8ad9e38b = L.circleMarker(
-                [44.9160938, 2.4136405],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_e7bc33374be64efda5409b371c72325d = L.popup({"maxWidth": "100%"});
-
-        
-            var html_3922c6a30df84d2087811c6ad3cc3f21 = $(`<div id="html_3922c6a30df84d2087811c6ad3cc3f21" style="width: 100.0%; height: 100.0%;">Centre Provisoire d'hébergement et programme</div>`)[0];
-            popup_e7bc33374be64efda5409b371c72325d.setContent(html_3922c6a30df84d2087811c6ad3cc3f21);
-        
-
-        circle_marker_935c43fe13b84466b3a4bfcb8ad9e38b.bindPopup(popup_e7bc33374be64efda5409b371c72325d)
-        ;
-
-        
-    
-    
-            circle_marker_935c43fe13b84466b3a4bfcb8ad9e38b.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_32957af079c548459327ae7c8bf6d422 = L.circleMarker(
+            var circle_marker_77312af7961e4c1e99ae649a71dcaae7 = L.circleMarker(
                 [44.9237705, 2.4427482],
                 {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
+            ).addTo(map_8de51c020bc241899e6451c655a25f6d);
         
     
-        var popup_da88ea318b014caea3f1c267a021f963 = L.popup({"maxWidth": "100%"});
+        var popup_b445dcfe8d6844ad8de60718995b8ff4 = L.popup({"maxWidth": "100%"});
 
         
-            var html_ec1e98a7106447dd917e8fbb4db9025d = $(`<div id="html_ec1e98a7106447dd917e8fbb4db9025d" style="width: 100.0%; height: 100.0%;">La Cimade Aurillac</div>`)[0];
-            popup_da88ea318b014caea3f1c267a021f963.setContent(html_ec1e98a7106447dd917e8fbb4db9025d);
+            var html_56ba1d9e26f845cc8060944303fe8265 = $(`<div id="html_56ba1d9e26f845cc8060944303fe8265" style="width: 100.0%; height: 100.0%;">La Cimade Aurillac</div>`)[0];
+            popup_b445dcfe8d6844ad8de60718995b8ff4.setContent(html_56ba1d9e26f845cc8060944303fe8265);
         
 
-        circle_marker_32957af079c548459327ae7c8bf6d422.bindPopup(popup_da88ea318b014caea3f1c267a021f963)
+        circle_marker_77312af7961e4c1e99ae649a71dcaae7.bindPopup(popup_b445dcfe8d6844ad8de60718995b8ff4)
         ;
 
         
     
     
-            circle_marker_32957af079c548459327ae7c8bf6d422.bindTooltip(
+            circle_marker_77312af7961e4c1e99ae649a71dcaae7.bindTooltip(
                 `<div>
                      Ouvert
                  </div>`,
@@ -733,512 +490,26 @@
             );
         
     
-            var circle_marker_246dd0a5b9524874af7679b45d96242a = L.circleMarker(
-                [45.252362, 3.1968316],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_e4455e96d45e459f807b2a36249112f4 = L.popup({"maxWidth": "100%"});
-
-        
-            var html_f28de4063cf646dc86b2b50761f2fc1f = $(`<div id="html_f28de4063cf646dc86b2b50761f2fc1f" style="width: 100.0%; height: 100.0%;">Secours Catholique Massiac</div>`)[0];
-            popup_e4455e96d45e459f807b2a36249112f4.setContent(html_f28de4063cf646dc86b2b50761f2fc1f);
-        
-
-        circle_marker_246dd0a5b9524874af7679b45d96242a.bindPopup(popup_e4455e96d45e459f807b2a36249112f4)
-        ;
-
-        
-    
-    
-            circle_marker_246dd0a5b9524874af7679b45d96242a.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_85243b015ce1424788e1eebaf20f2375 = L.circleMarker(
-                [45.1260723, 2.9768089],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_a63a4f220a14469ab2473c3eefa2513c = L.popup({"maxWidth": "100%"});
-
-        
-            var html_96e441b0a0af4af2b08ba0f2dd8c1946 = $(`<div id="html_96e441b0a0af4af2b08ba0f2dd8c1946" style="width: 100.0%; height: 100.0%;">Secours catholique Neussargues</div>`)[0];
-            popup_a63a4f220a14469ab2473c3eefa2513c.setContent(html_96e441b0a0af4af2b08ba0f2dd8c1946);
-        
-
-        circle_marker_85243b015ce1424788e1eebaf20f2375.bindPopup(popup_a63a4f220a14469ab2473c3eefa2513c)
-        ;
-
-        
-    
-    
-            circle_marker_85243b015ce1424788e1eebaf20f2375.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_139afa00b7a54719a265e9cefa65e54d = L.circleMarker(
-                [45.1716398, 2.9711438],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_85b2475b38494121985d3da841eefa2d = L.popup({"maxWidth": "100%"});
-
-        
-            var html_3341d3a751574b52913eff6412e182f7 = $(`<div id="html_3341d3a751574b52913eff6412e182f7" style="width: 100.0%; height: 100.0%;">Secours Catholique Allanche</div>`)[0];
-            popup_85b2475b38494121985d3da841eefa2d.setContent(html_3341d3a751574b52913eff6412e182f7);
-        
-
-        circle_marker_139afa00b7a54719a265e9cefa65e54d.bindPopup(popup_85b2475b38494121985d3da841eefa2d)
-        ;
-
-        
-    
-    
-            circle_marker_139afa00b7a54719a265e9cefa65e54d.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_1de7cb5df12c4f19ac452206a6e0dce5 = L.circleMarker(
-                [44.8799436, 2.9799644],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_65b9e19dbfab4d6baa92d4dfea72c5a0 = L.popup({"maxWidth": "100%"});
-
-        
-            var html_beb9d918912e4403aa76a0e63a1c8d3d = $(`<div id="html_beb9d918912e4403aa76a0e63a1c8d3d" style="width: 100.0%; height: 100.0%;">Secours catholique Chaudes Aiges</div>`)[0];
-            popup_65b9e19dbfab4d6baa92d4dfea72c5a0.setContent(html_beb9d918912e4403aa76a0e63a1c8d3d);
-        
-
-        circle_marker_1de7cb5df12c4f19ac452206a6e0dce5.bindPopup(popup_65b9e19dbfab4d6baa92d4dfea72c5a0)
-        ;
-
-        
-    
-    
-            circle_marker_1de7cb5df12c4f19ac452206a6e0dce5.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_aace724a10ad471697558ae76ff285fc = L.circleMarker(
-                [44.92372109999999, 2.4371918],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_c8cd19287c0e4a1b83158be7d61fdd7f = L.popup({"maxWidth": "100%"});
-
-        
-            var html_a2cb9ff2716e4db68403f065ad6778bb = $(`<div id="html_a2cb9ff2716e4db68403f065ad6778bb" style="width: 100.0%; height: 100.0%;">Lits Halte Soins Santé ANEF</div>`)[0];
-            popup_c8cd19287c0e4a1b83158be7d61fdd7f.setContent(html_a2cb9ff2716e4db68403f065ad6778bb);
-        
-
-        circle_marker_aace724a10ad471697558ae76ff285fc.bindPopup(popup_c8cd19287c0e4a1b83158be7d61fdd7f)
-        ;
-
-        
-    
-    
-            circle_marker_aace724a10ad471697558ae76ff285fc.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_994d52f903cf41ddb10784c2a7fa7396 = L.circleMarker(
-                [44.92372109999999, 2.4371918],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_19818a0afb824ea6a0340a8bb8c4ecab = L.popup({"maxWidth": "100%"});
-
-        
-            var html_bcf3afb638c046af9bc6922fc83f1d1d = $(`<div id="html_bcf3afb638c046af9bc6922fc83f1d1d" style="width: 100.0%; height: 100.0%;">Centre de prise en charge des auteurs de violences conjugales (C.P.C.A.)</div>`)[0];
-            popup_19818a0afb824ea6a0340a8bb8c4ecab.setContent(html_bcf3afb638c046af9bc6922fc83f1d1d);
-        
-
-        circle_marker_994d52f903cf41ddb10784c2a7fa7396.bindPopup(popup_19818a0afb824ea6a0340a8bb8c4ecab)
-        ;
-
-        
-    
-    
-            circle_marker_994d52f903cf41ddb10784c2a7fa7396.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_25ecdb5020f8401eb7e075f0077802a6 = L.circleMarker(
+            var circle_marker_b812dd010ef942268bfe8119a212eb42 = L.circleMarker(
                 [44.919657, 2.438296],
                 {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
+            ).addTo(map_8de51c020bc241899e6451c655a25f6d);
         
     
-        var popup_f4738d5e85ca410b91a54bb10ab76927 = L.popup({"maxWidth": "100%"});
+        var popup_778c4ac27a13498dab888c23dfdccd86 = L.popup({"maxWidth": "100%"});
 
         
-            var html_f41a1fb0c4e649aa8b55126fb8bd82a4 = $(`<div id="html_f41a1fb0c4e649aa8b55126fb8bd82a4" style="width: 100.0%; height: 100.0%;">Mission locale de l'Arrondissements d'Aurillac</div>`)[0];
-            popup_f4738d5e85ca410b91a54bb10ab76927.setContent(html_f41a1fb0c4e649aa8b55126fb8bd82a4);
+            var html_ebcc3cc1dfcc442b89c53ff11829014e = $(`<div id="html_ebcc3cc1dfcc442b89c53ff11829014e" style="width: 100.0%; height: 100.0%;">Mission locale de l'Arrondissements d'Aurillac</div>`)[0];
+            popup_778c4ac27a13498dab888c23dfdccd86.setContent(html_ebcc3cc1dfcc442b89c53ff11829014e);
         
 
-        circle_marker_25ecdb5020f8401eb7e075f0077802a6.bindPopup(popup_f4738d5e85ca410b91a54bb10ab76927)
+        circle_marker_b812dd010ef942268bfe8119a212eb42.bindPopup(popup_778c4ac27a13498dab888c23dfdccd86)
         ;
 
         
     
     
-            circle_marker_25ecdb5020f8401eb7e075f0077802a6.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_2b9c2136ef6f4b87bcbd0d0755967820 = L.circleMarker(
-                [44.9328106, 2.4401946],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_da9c1547f4004e078b213c67dabfba3d = L.popup({"maxWidth": "100%"});
-
-        
-            var html_8cecc85268bf4c94bde22b145dcc9830 = $(`<div id="html_8cecc85268bf4c94bde22b145dcc9830" style="width: 100.0%; height: 100.0%;">Oppelia apt 15</div>`)[0];
-            popup_da9c1547f4004e078b213c67dabfba3d.setContent(html_8cecc85268bf4c94bde22b145dcc9830);
-        
-
-        circle_marker_2b9c2136ef6f4b87bcbd0d0755967820.bindPopup(popup_da9c1547f4004e078b213c67dabfba3d)
-        ;
-
-        
-    
-    
-            circle_marker_2b9c2136ef6f4b87bcbd0d0755967820.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_ea45fdbd7f8845e387a4b956bd259e77 = L.circleMarker(
-                [44.92594639999999, 2.4428975],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_dad87c25a7dd4c7bbd078f521ca9ad6c = L.popup({"maxWidth": "100%"});
-
-        
-            var html_c1b6cc63ee4946438f9ac6c901cabb18 = $(`<div id="html_c1b6cc63ee4946438f9ac6c901cabb18" style="width: 100.0%; height: 100.0%;">CCAS Aurillac</div>`)[0];
-            popup_dad87c25a7dd4c7bbd078f521ca9ad6c.setContent(html_c1b6cc63ee4946438f9ac6c901cabb18);
-        
-
-        circle_marker_ea45fdbd7f8845e387a4b956bd259e77.bindPopup(popup_dad87c25a7dd4c7bbd078f521ca9ad6c)
-        ;
-
-        
-    
-    
-            circle_marker_ea45fdbd7f8845e387a4b956bd259e77.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_0d9fc0840bc44b1b88bd611525d30b46 = L.circleMarker(
-                [44.9200747, 2.4265648],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_d40f9a98a8d943c1b2727484f96b081c = L.popup({"maxWidth": "100%"});
-
-        
-            var html_891e48b172da4dd2adeaa1b6c4b1e106 = $(`<div id="html_891e48b172da4dd2adeaa1b6c4b1e106" style="width: 100.0%; height: 100.0%;">Association Aurore Aurillac</div>`)[0];
-            popup_d40f9a98a8d943c1b2727484f96b081c.setContent(html_891e48b172da4dd2adeaa1b6c4b1e106);
-        
-
-        circle_marker_0d9fc0840bc44b1b88bd611525d30b46.bindPopup(popup_d40f9a98a8d943c1b2727484f96b081c)
-        ;
-
-        
-    
-    
-            circle_marker_0d9fc0840bc44b1b88bd611525d30b46.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_d546b353f02641daa8aa55d96bf4092c = L.circleMarker(
-                [44.9273124, 2.4415462],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_be4c74b90f6b46b988b3f47a63c0c408 = L.popup({"maxWidth": "100%"});
-
-        
-            var html_7e51b2d9c4b94bbba199e896eb50b58f = $(`<div id="html_7e51b2d9c4b94bbba199e896eb50b58f" style="width: 100.0%; height: 100.0%;">Association accent jeunes</div>`)[0];
-            popup_be4c74b90f6b46b988b3f47a63c0c408.setContent(html_7e51b2d9c4b94bbba199e896eb50b58f);
-        
-
-        circle_marker_d546b353f02641daa8aa55d96bf4092c.bindPopup(popup_be4c74b90f6b46b988b3f47a63c0c408)
-        ;
-
-        
-    
-    
-            circle_marker_d546b353f02641daa8aa55d96bf4092c.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_6a17b35620c0425c8dabdbbadb5babe3 = L.circleMarker(
-                [45.2827243, 2.6595302],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_10ddf42bee6d4048a44fa7cb7272b379 = L.popup({"maxWidth": "100%"});
-
-        
-            var html_771efe411b6d4534a01001c053f06fc0 = $(`<div id="html_771efe411b6d4534a01001c053f06fc0" style="width: 100.0%; height: 100.0%;">Clic du Haut Cantal</div>`)[0];
-            popup_10ddf42bee6d4048a44fa7cb7272b379.setContent(html_771efe411b6d4534a01001c053f06fc0);
-        
-
-        circle_marker_6a17b35620c0425c8dabdbbadb5babe3.bindPopup(popup_10ddf42bee6d4048a44fa7cb7272b379)
-        ;
-
-        
-    
-    
-            circle_marker_6a17b35620c0425c8dabdbbadb5babe3.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_dbf2eb0bdcf446bb85738682f19b060d = L.circleMarker(
-                [45.2848333, 2.6581649],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_a185dad1b25b4f169396aeb5b4e8a4be = L.popup({"maxWidth": "100%"});
-
-        
-            var html_4c32188480fa4bf6a209db694981bb59 = $(`<div id="html_4c32188480fa4bf6a209db694981bb59" style="width: 100.0%; height: 100.0%;">MFS Riom es Montagnes</div>`)[0];
-            popup_a185dad1b25b4f169396aeb5b4e8a4be.setContent(html_4c32188480fa4bf6a209db694981bb59);
-        
-
-        circle_marker_dbf2eb0bdcf446bb85738682f19b060d.bindPopup(popup_a185dad1b25b4f169396aeb5b4e8a4be)
-        ;
-
-        
-    
-    
-            circle_marker_dbf2eb0bdcf446bb85738682f19b060d.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_1f1ba17999c646c5ae168b2016332175 = L.circleMarker(
-                [44.9239715, 2.4434577],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_9bed2d67c71844a596e5fa53ef69a3bd = L.popup({"maxWidth": "100%"});
-
-        
-            var html_e0d2d9a2561442d88ebd85242d84486b = $(`<div id="html_e0d2d9a2561442d88ebd85242d84486b" style="width: 100.0%; height: 100.0%;">Addictions France Aurillac</div>`)[0];
-            popup_9bed2d67c71844a596e5fa53ef69a3bd.setContent(html_e0d2d9a2561442d88ebd85242d84486b);
-        
-
-        circle_marker_1f1ba17999c646c5ae168b2016332175.bindPopup(popup_9bed2d67c71844a596e5fa53ef69a3bd)
-        ;
-
-        
-    
-    
-            circle_marker_1f1ba17999c646c5ae168b2016332175.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_a5c50d25487c4d028b02889a8018bfe3 = L.circleMarker(
-                [44.9224395, 2.4443267],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_bb25ce7b9602476ea1086d8e84f174d0 = L.popup({"maxWidth": "100%"});
-
-        
-            var html_7064b758be3244039472b829a2834171 = $(`<div id="html_7064b758be3244039472b829a2834171" style="width: 100.0%; height: 100.0%;">Cantal Habitat</div>`)[0];
-            popup_bb25ce7b9602476ea1086d8e84f174d0.setContent(html_7064b758be3244039472b829a2834171);
-        
-
-        circle_marker_a5c50d25487c4d028b02889a8018bfe3.bindPopup(popup_bb25ce7b9602476ea1086d8e84f174d0)
-        ;
-
-        
-    
-    
-            circle_marker_a5c50d25487c4d028b02889a8018bfe3.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_b5ccfb3b76414aebacc35b406047965f = L.circleMarker(
-                [44.9297946, 2.4444136],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_014bac34e58348c2ada3c6f20257f47e = L.popup({"maxWidth": "100%"});
-
-        
-            var html_23a59b2c7c6b4c55904a0a7f21419155 = $(`<div id="html_23a59b2c7c6b4c55904a0a7f21419155" style="width: 100.0%; height: 100.0%;">Point d'accueil Secours Catholique</div>`)[0];
-            popup_014bac34e58348c2ada3c6f20257f47e.setContent(html_23a59b2c7c6b4c55904a0a7f21419155);
-        
-
-        circle_marker_b5ccfb3b76414aebacc35b406047965f.bindPopup(popup_014bac34e58348c2ada3c6f20257f47e)
-        ;
-
-        
-    
-    
-            circle_marker_b5ccfb3b76414aebacc35b406047965f.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_0088ccad378840c9b5bd9630069ea677 = L.circleMarker(
-                [44.92718389999999, 2.4445302],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_653e824555314168be943d3fcfe1c3d9 = L.popup({"maxWidth": "100%"});
-
-        
-            var html_574d489fc502411d99897f7f63ab17bf = $(`<div id="html_574d489fc502411d99897f7f63ab17bf" style="width: 100.0%; height: 100.0%;">La Maison de l'Autonomie Aurillac</div>`)[0];
-            popup_653e824555314168be943d3fcfe1c3d9.setContent(html_574d489fc502411d99897f7f63ab17bf);
-        
-
-        circle_marker_0088ccad378840c9b5bd9630069ea677.bindPopup(popup_653e824555314168be943d3fcfe1c3d9)
-        ;
-
-        
-    
-    
-            circle_marker_0088ccad378840c9b5bd9630069ea677.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_79e8e7a46b1748b2a00c77137c3391e0 = L.circleMarker(
-                [45.220261, 2.339099],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_5d08b205962647f9bd4479358f686009 = L.popup({"maxWidth": "100%"});
-
-        
-            var html_53d68bcb75ea4a00b2087bda5d7805cf = $(`<div id="html_53d68bcb75ea4a00b2087bda5d7805cf" style="width: 100.0%; height: 100.0%;">La Maison de l'Autonomie Mauriac</div>`)[0];
-            popup_5d08b205962647f9bd4479358f686009.setContent(html_53d68bcb75ea4a00b2087bda5d7805cf);
-        
-
-        circle_marker_79e8e7a46b1748b2a00c77137c3391e0.bindPopup(popup_5d08b205962647f9bd4479358f686009)
-        ;
-
-        
-    
-    
-            circle_marker_79e8e7a46b1748b2a00c77137c3391e0.bindTooltip(
-                `<div>
-                     Ouvert
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var circle_marker_f393d74c6e024a649d0e04d4838193a6 = L.circleMarker(
-                [45.0331783, 3.0829962],
-                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
-            ).addTo(map_fa1cf1afbf5d46968f54877a955a3272);
-        
-    
-        var popup_8c2261c8071340b98a7de505753ca6f0 = L.popup({"maxWidth": "100%"});
-
-        
-            var html_3066d057303b4b38983a0848f298ddf9 = $(`<div id="html_3066d057303b4b38983a0848f298ddf9" style="width: 100.0%; height: 100.0%;">La Maison de l'Autonomie Saint Flour</div>`)[0];
-            popup_8c2261c8071340b98a7de505753ca6f0.setContent(html_3066d057303b4b38983a0848f298ddf9);
-        
-
-        circle_marker_f393d74c6e024a649d0e04d4838193a6.bindPopup(popup_8c2261c8071340b98a7de505753ca6f0)
-        ;
-
-        
-    
-    
-            circle_marker_f393d74c6e024a649d0e04d4838193a6.bindTooltip(
+            circle_marker_b812dd010ef942268bfe8119a212eb42.bindTooltip(
                 `<div>
                      Ouvert
                  </div>`,
