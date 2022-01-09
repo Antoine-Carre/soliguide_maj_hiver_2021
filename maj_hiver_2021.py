@@ -100,17 +100,17 @@ df_categories_closed = pd.read_csv('/ressource/df_categories_closed.csv')
 df_changes_vf = pd.read_csv('/ressource/df_changes_vf.csv')
 
 # Données qui fait la màj
-df_fiches_màj = pd.read_csv('./ressource/df_fiches_data.csv')
+df_fiches_màj = pd.read_csv('https://raw.githubusercontent.com/Antoine-Carre/maj_hiver_soliguide/main/pilotage%20m%C3%A0j%20hiver%202021/df_fiches_data.csv')
 df_history_campaign_users_final = df_fiches_màj[['status','created_at','territory']]
 
 # Mails.csv
-df_mails = pd.read_csv('./ressource/df_mails_data.csv')
+df_mails = pd.read_csv('https://raw.githubusercontent.com/Antoine-Carre/maj_hiver_soliguide/main/pilotage%20m%C3%A0j%20hiver%202021/df_mails_data.csv')
 
 # Appels
-df_source_màj = pd.read_csv('./ressource/df_source_màj.csv')
+df_source_màj = pd.read_csv('https://raw.githubusercontent.com/Antoine-Carre/maj_hiver_soliguide/main/pilotage%20m%C3%A0j%20hiver%202021/df_source_m%C3%A0j.csv')
 
 # Recherches en décembre
-df_search = pd.read_csv('/ressource/searchWithDatePresentation3.csv')
+df_search = pd.read_csv('https://raw.githubusercontent.com/Antoine-Carre/bdd_python/main/data_csv/searchWithDatePresentation3.csv')
 df_search_vf = df_search[df_search.datePresentation == "2021-12-01"]
 
 #  pourcentage màj
