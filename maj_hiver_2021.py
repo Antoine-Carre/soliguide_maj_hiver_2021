@@ -480,7 +480,6 @@ df_fiches_màj_pie.replace({False : "Fiches à mettre à jour"}, inplace=True)
 df_fiches_màj_pie = pd.DataFrame(df_fiches_màj_pie.value_counts())
 df_fiches_màj_pie.loc["Total"] = df_fiches_màj_pie.sum()
 percent_uodated = df_fiches_màj_pie.loc['Fiches totalement à jour','A jour']/ df_fiches_màj_pie.loc['Total','A jour'] * 100
-st.write(percent_uodated)
 
 html_string_4 = f"<center><font face='Helvetica' size='6'>{round(percent_uodated, 2)} %</font><br/><font size='2'>de la base de données mise à jour cet hiver</font></center>"
 
