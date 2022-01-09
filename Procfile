@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run bdd_python.py
+web: sh setup.sh && streamlit run maj_hiver_2021.py 
