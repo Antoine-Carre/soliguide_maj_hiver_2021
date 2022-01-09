@@ -68,14 +68,14 @@ cat_dict_2 = {"Alpes-Maritimes (06)" :"06", "Ardèche (07)":"07",
 # Importation des fichier .csv en pandas
 
 # Chiffres de la barre du haut
-df_fiches_online_all = pd.read_csv('/ressource/df_fiches_online_all.csv')
+df_fiches_online_all = pd.read_csv('./ressource/df_fiches_online_all.csv')
 
 # Données pour cartes :
-HtmlFile = open("/ressource/France.html", 'r', encoding='utf-8')
-HtmlFile_IDF = open("/ressource/IDF.html", 'r', encoding='utf-8')
-HtmlFile_06 = open("/ressource/AM06.html", 'r', encoding='utf-8')
-HtmlFile_13 = open("/ressource/BR13.html", 'r', encoding='utf-8')
-HtmlFile_15 = open("/ressource/C15.html", 'r', encoding='utf-8')
+HtmlFile = open("./ressource/France.html", 'r', encoding='utf-8')
+HtmlFile_IDF = open("./ressource/IDF.html", 'r', encoding='utf-8')
+HtmlFile_06 = open("./ressource/AM06.html", 'r', encoding='utf-8')
+HtmlFile_13 = open("./ressource/BR13.html", 'r', encoding='utf-8')
+HtmlFile_15 = open("./ressource/C15.html", 'r', encoding='utf-8')
 HtmlFile_33= open("/ressource/G33.html", 'r', encoding='utf-8')
 HtmlFile_34 = open("/ressource/H34.html", 'r', encoding='utf-8')
 HtmlFile_36 = open("/ressource/I36.html", 'r', encoding='utf-8')
