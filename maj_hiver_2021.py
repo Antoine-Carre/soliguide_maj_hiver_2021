@@ -103,6 +103,9 @@ df_changes_vf = pd.read_csv('./ressource/df_changes_vf.csv')
 df_fiches_màj = pd.read_csv('https://raw.githubusercontent.com/Antoine-Carre/maj_hiver_soliguide/main/pilotage%20m%C3%A0j%20hiver%202021/df_fiches_data.csv')
 df_history_campaign_users_final = df_fiches_màj[['status','created_at','territory']]
 
+df_fiches_màj2 = pd.read_csv('./ressource/df_fiches_data2.csv')
+
+
 # Mails.csv
 df_mails = pd.read_csv('https://raw.githubusercontent.com/Antoine-Carre/maj_hiver_soliguide/main/pilotage%20m%C3%A0j%20hiver%202021/df_mails_data.csv')
 
@@ -114,7 +117,7 @@ df_search = pd.read_csv('https://raw.githubusercontent.com/Antoine-Carre/bdd_pyt
 df_search_vf = df_search[df_search.datePresentation == "2021-12-01"]
 
 #  pourcentage màj
-df_fiches_màj_vf = df_fiches_màj[['territory','sections.closed.updated','sections.hours.updated','sections.services.updated','sections.tempMessage.updated']]
+df_fiches_màj_vf = df_fiches_màj2[['territory','sections.closed.updated','sections.hours.updated','sections.services.updated','sections.tempMessage.updated']]
 
 
 
