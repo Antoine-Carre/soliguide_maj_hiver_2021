@@ -119,6 +119,8 @@ df_search_vf = df_search[df_search.datePresentation == "2021-12-01"]
 #  pourcentage màj
 df_fiches_màj_vf = df_fiches_màj2[['territory','sections.closed.updated','sections.hours.updated','sections.services.updated','sections.tempMessage.updated']]
 
+# màj 6 mois
+maj_6_tab = pd.read_csv('./ressource/maj_6_tab.csv')
 
 
 
@@ -144,6 +146,7 @@ if categorie == 'France':
     df_source_màj_2 = pd.DataFrame(df_source_màj['❄️ Source de la mise à jour'].value_counts())
     df_search_vf = df_search_vf[['Recherches général']]
     df_fiches_màj_vf = df_fiches_màj_vf
+    maj_6_tab = maj_6_tab[maj_6_tab.territoire == "Total"]
 
 
 if categorie == 'Ile-De-France':
@@ -175,6 +178,9 @@ if categorie == 'Ile-De-France':
     df_fiches_màj_vf = df_fiches_màj_vf[(df_fiches_màj_vf.territory == 75) | (df_fiches_màj_vf.territory == 77) | (df_fiches_màj_vf.territory == 78) | (df_fiches_màj_vf.territory == 91) 
     | (df_fiches_màj_vf.territory == 92) | (df_fiches_màj_vf.territory == 93) | (df_fiches_màj_vf.territory == 94) | (df_fiches_màj_vf.territory == 95)]
 
+    maj_6_tab = maj_6_tab[(maj_6_tab.territoire == "75") | (maj_6_tab.territoire == "77") | (maj_6_tab.territoire == "78") | (maj_6_tab.territoire == "91") | (maj_6_tab.territoire == "92") |
+    (maj_6_tab.territoire == "93") | (maj_6_tab.territoire == "94") | (maj_6_tab.territoire == "95")]
+
 if categorie != 'Ile-De-France' and categorie != 'France':
 
     df_fiches_online_all = df_fiches_online_all[df_fiches_online_all.departement == (cat_dict[categorie])]
@@ -188,6 +194,8 @@ if categorie != 'Ile-De-France' and categorie != 'France':
     df_search_vf = df_search_vf.filter(regex=cat_dict_2[categorie])
 
     df_fiches_màj_vf = df_fiches_màj_vf[df_fiches_màj_vf.territory == int(cat_dict_2[categorie])]
+
+    maj_6_tab = maj_6_tab[maj_6_tab.territoire == cat_dict_2[categorie]]
 
 
 #####################
@@ -431,6 +439,19 @@ st.markdown("<center><b>Qui a réalisé les mises à jour pendant l'été ?</b>"
 st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
 
 st.plotly_chart(fig3bis, use_container_width=True)
+
+# Fiche màj 6 mois
+st.markdown("<center><b>Fiches mises à jour depuis moins de 6 mois</b>", unsafe_allow_html=True)
+
+maj_6_tab.drop(columns='territoire',inplace=True)
+maj_6_tab_tot = maj_6_tab.T
+
+maj_6_tab_tot.rename(index={'status':'Nombre de fiches à jour (depuis moins de 6 mois)','non_maj_6_m':'Nombre de fiches avec une actualisation de plus de 6 mois'},inplace=True)
+
+fig5 = px.pie(values=maj_6_tab_tot[(maj_6_tab_tot.columns.to_list()[0])], names=maj_6_tab_tot.index, color_discrete_sequence= [ '#7201a8', '#d8576b'],)
+fig5.update_traces(hovertemplate = "%{label}: <br>Nombre de fiches: %{value}")
+
+st.plotly_chart(fig5, use_container_width=True)
 
 # Derniers chiffres
 
