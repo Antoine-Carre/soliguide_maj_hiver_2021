@@ -417,7 +417,7 @@ st.plotly_chart(fig3, use_container_width=True)
 
 # Qui fait la màj
 
-df_history_campaign_users_final.status.replace({'ADMIN_SOLIGUIDE':"l'équipe Solinum",'ADMIN_TERRITORY':"l'équipe territoirial","PRO":"les acteurs"}, inplace=True)
+df_history_campaign_users_final.status.replace({'ADMIN_SOLIGUIDE':"l'équipe Solinum",'ADMIN_TERRITORY':"l'équipe territoiriale","PRO":"les acteurs"}, inplace=True)
 tabs = pd.DataFrame(df_history_campaign_users_final.status.value_counts())
             
 fig3bis = px.pie(values=tabs.status, names=tabs.index, color_discrete_sequence= ['#3E3A71', '#2896A0'])
