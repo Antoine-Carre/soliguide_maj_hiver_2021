@@ -460,7 +460,7 @@ else:
     html_string_3 = f"<center><font face='Helvetica' size='6'>{int(df_search_vf.iloc[0,0])}</font><br/><font size='2'>recherches réalisées sur Soliguide</font></center>"
 
 
-if categorie != 'Indre (36)' and not df_source_màj_2.empty:
+if 'Appel' in df_source_màj_2.index and not categorie == "Puy-de-Dôme":
     html_string_2 = f"<center><font face='Helvetica' size='6'>{int(df_source_màj_2.loc['Appel','❄️ Source de la mise à jour'])}</font><br/><font size='2'>appels effectués par l'équipe Solinum</font></center>"
     col2.markdown(html_string_2, unsafe_allow_html=True)
 
