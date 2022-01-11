@@ -379,7 +379,7 @@ if df_fiches_online_all[df_fiches_online_all['sections.closed.changes'] == True]
                             margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                                 yaxis_title="",
                                 xaxis_title="Nombre de services",
-                                legend_title="Statut",)
+                                legend_title="",)
 
     st.plotly_chart(fig, use_container_width=True)
 
@@ -422,7 +422,7 @@ fig3.update_layout(title="<b>Quels impacts a l'hiver sur les catégories de serv
                           margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
                             yaxis_title="Part de services",
                             xaxis_title="",
-                            legend_title="Statut",)
+                            legend_title="",)
 
 st.plotly_chart(fig3, use_container_width=True)
 
