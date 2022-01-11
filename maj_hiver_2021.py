@@ -416,7 +416,7 @@ fig3 = go.Figure(data=[
 ])
 
 # Change the bar mode
-fig3.update_layout(barmode='stack', legend=dict(orientation="h"))
+fig3.update_layout(barmode='stack', legend=dict(orientation="h", y=-0.15))
 
 fig3.update_layout(title="<b>Quels impacts a l'hiver sur les catégories de services</b>",
                           margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
