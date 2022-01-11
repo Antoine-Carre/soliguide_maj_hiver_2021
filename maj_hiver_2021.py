@@ -373,7 +373,7 @@ if df_fiches_online_all[df_fiches_online_all['sections.closed.changes'] == True]
             text = df_comparaison_sorted.head(10).sort_values(by='Part de service fermé', ascending=True)['Part de service fermé'].astype(str) +"%", textposition = "outside",)
     ])
     # Change the bar mode
-    fig.update_layout(barmode='stack', legend=dict(orientation="h"), legend={'title_text':''})
+    fig.update_layout(barmode='stack', legend=dict(orientation="h"))
 
     fig.update_layout(title="<b>Quels sont les services qui ferment le plus pendant l'hiver</b>",
                             margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
@@ -416,7 +416,7 @@ fig3 = go.Figure(data=[
 ])
 
 # Change the bar mode
-fig3.update_layout(barmode='stack', legend=dict(orientation="h"), legend={'title_text':''})
+fig3.update_layout(barmode='stack', legend=dict(orientation="h"))
 
 fig3.update_layout(title="<b>Quels impacts a l'hiver sur les catégories de services</b>",
                           margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
