@@ -437,7 +437,7 @@ fig3bis.update_traces(hovertemplate = "%{label}: <br>Nbre de fiches: %{value}")
 fig3bis.update_layout(title_x=0.48,legend={"x" : -0.13, "y" : 1})
 
                  
-st.markdown("<center><b>Qui a réalisé les mises à jour pendant l'été ?</b>", unsafe_allow_html=True)
+st.markdown("<center><b>Qui a réalisé les mises à jour pendant l'hiver ?</b>", unsafe_allow_html=True)
 st.markdown("<center>Les mises à jour des structures référencées sur Soliguide peut se faire par deux biais :<br> soit directement par l\'organisation concernée, via son compte professionnel <br>(fonctionnalité sortie en décembre 2020), soit par l\'équipe Solinum locale.</center>", unsafe_allow_html=True)
 
 st.plotly_chart(fig3bis, use_container_width=True)
