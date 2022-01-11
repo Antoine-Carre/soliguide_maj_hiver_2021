@@ -434,7 +434,7 @@ tabs = pd.DataFrame(df_history_campaign_users_final.status.value_counts())
 fig3bis = px.pie(values=tabs.status, names=tabs.index, color_discrete_sequence= ['#3E3A71', '#2896A0'])
 fig3bis.update_traces(textinfo="percent+label")
 fig3bis.update_traces(hovertemplate = "%{label}: <br>Nbre de fiches: %{value}")
-fig3bis.update_layout(title_x=0.48,legend={"x" : -0.13, "y" : 1})
+fig3bis.update_layout(legend=dict(orientation="h"))
 
                  
 st.markdown("<center><b>Qui a réalisé les mises à jour pendant l'hiver ?</b>", unsafe_allow_html=True)
@@ -452,7 +452,7 @@ maj_6_tab_tot.rename(index={'status':'Nombre de fiches à jour (depuis moins de 
 
 fig5 = px.pie(values=maj_6_tab_tot[(maj_6_tab_tot.columns.to_list()[0])], names=maj_6_tab_tot.index, color_discrete_sequence= [ '#7201a8', '#d8576b'],)
 fig5.update_traces(hovertemplate = "%{label}: <br>Nombre de fiches: %{value}")
-fig5.update_layout(title_x=0.48,legend={"x" : -0.13, "y" : 1})
+fig5.update_layout(legend=dict(orientation="h"))
 
 
 st.plotly_chart(fig5, use_container_width=True)
