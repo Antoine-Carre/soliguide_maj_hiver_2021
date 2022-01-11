@@ -354,6 +354,7 @@ a = ["Spécialistes","Allergologie", "Cardiologie","Dermatologie",
 df_comparaison_sorted = df_comparaison_sorted[~df_comparaison_sorted['name_y'].isin(a)]
 
 # Calcul du nombre de services ouvert sans modification et changement des noms des variables
+
 df_comparaison_sorted['ouvert'] = df_comparaison_sorted.categorie_x - df_comparaison_sorted.categorie_y
 df_comparaison_sorted.rename(columns={'categorie_y':'Service fermé','name_y':'catégorie','categorie_x':'Nbre_de_services','percent':'Part de service fermé'}, inplace=True)
 
@@ -416,7 +417,7 @@ fig3 = go.Figure(data=[
 ])
 
 # Change the bar mode
-fig3.update_layout(barmode='stack', legend=dict(orientation="h", y=-0.15))
+fig3.update_layout(barmode='stack', legend=dict(orientation="h", y=-0.30))
 
 fig3.update_layout(title="<b>Quels impacts a l'hiver sur les catégories de services</b>",
                           margin=dict(l=10, r=10, b=10, t=40), title_x=0.5,
